@@ -166,6 +166,13 @@
     //    */
     //   // "autoinstallerName": "my-task"
     // }
+    {
+      "name": "test",
+      "summary": "Runs tests for each project.",
+      "commandKind": "bulk",
+      "enableParallelism": true,
+      "incremental": true
+    },
   ],
 
   /**

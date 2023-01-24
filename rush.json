@@ -429,5 +429,13 @@
     //   "reviewCategory": "tools",
     //   "tags": [ "tools" ]
     // }
+    {
+      "packageName": "@my-repo/a",
+      "projectFolder": "libraries/a",
+    },
+    {
+      "packageName": "@my-repo/b",
+      "projectFolder": "libraries/b",
+    }
   ]
 }

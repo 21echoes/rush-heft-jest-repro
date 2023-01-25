@@ -2,7 +2,9 @@
   "name": "@my-repo/a",
   "version": "0.0.1",
   "description": "Basic project which is a dependency of another project",
-  "main": "lib/index.js",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "heft build --clean",
     "test": "heft test --clean"
